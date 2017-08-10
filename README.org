@@ -1,6 +1,7 @@
 CLI interface for pyteomics.biolccc for estimating retention time of peptides.
 Only supports python2.7 due to biolccc requirement.
 
+#+BEGIN_SRC sh
 Usage: biolccc-cli [OPTIONS] COMMAND [ARGS]...
 
 Options:
@@ -9,9 +10,10 @@ Options:
 Commands:
   chemgroups
   run         See biolccc documentation
+#+END_SRC
 
 
-
+#+BEGIN_SRC sh
 Usage: biolccc-cli run [OPTIONS] [PEPTIDE]...
 
   See biolccc documentation
@@ -33,3 +35,5 @@ Options:
   --input-type [string|file]  Whether or not the input is a string of peptides
                               or files of peptides  [default: string]
   --help                      Show this message and exit.
+
+#+END_SRC
